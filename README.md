@@ -32,7 +32,7 @@ docker run --rm --pull always -v <source_directory>:/build/src -v <output_direct
 
 Keep in mind, when not using absolute paths, you must prefix relative paths appropriately. For example, if you have a custom package inside a directory `my-custom-package/` within the current directory, the correct way to mount the directory is `-v ./my-custom-package:/build/src`. The same principle applies to the output directory.
 
-## Container Repositories
+## Container Registries
 
 Built images may be found in the following container registries:
 
